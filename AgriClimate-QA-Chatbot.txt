@@ -1,0 +1,8 @@
+﻿AgriClimate-QA-Chatbot/ 
+│ 
+├── app.py                ← main chatbot code 
+├── intents.json          ← chatbot training data 
+├── datasets/             ← CSV files from data.gov.in 
+│   ├── rainfall.csv 
+│   └── crops.csv 
+└── requirements.txt      ← list of Python libraries
