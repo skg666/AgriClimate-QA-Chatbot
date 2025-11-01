@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "rainfall_comparison",
+      "patterns": ["Compare rainfall", "average annual rainfall"],
+      "responses": ["Average rainfall in Bihar = 980 mm, UP = 820 mm (sample data)."]
+    },
+    {
+      "tag": "top_crops",
+      "patterns": ["top crops", "most produced crops"],
+      "responses": ["Top crops in Maharashtra: Sugarcane, Cotton, Soybean."]
+    },
+    {
+      "tag": "unknown",
+      "patterns": ["other questions"],
+      "responses": ["Sorry, I can currently answer only rainfall or crop questions."]
+    }
+  ]
+}
